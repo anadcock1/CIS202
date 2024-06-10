@@ -25,12 +25,12 @@ while item != '0':
         if muffins > 0:
             muffins -= 1
         else:
-            print("Out of stock")
+            print("Muffins are now out of stock")
     elif item=='cupcake':
         if cupcakes > 0:
             cupcakes -= 1
         else:
-            print("Out of stock")
+            print("Cupcakes are now out of stock")
     elif item=='0':
         print("Bakery Closed, remaining inventory count below:")
     else:
